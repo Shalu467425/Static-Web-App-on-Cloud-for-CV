@@ -8,12 +8,25 @@ Week # 1 Task of Cloud Computing Intership - Static Web App for CV
 [![HTML5](https://img.shields.io/badge/HTML-5-E34F26?logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
 [![CSS3](https://img.shields.io/badge/CSS-3-1572B6?logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
 ![Last Updated](https://img.shields.io/badge/Last%20Updated-2025--08--09-orange)
-[![Azure Deployment](https://github.com/USERNAME/REPO/actions/workflows/azure-static-web-apps.yml/badge.svg)](https://github.com/USERNAME/REPO/actions/workflows/azure-static-web-apps.yml)
+[![Deployment Status](https://img.shields.io/github/actions/workflow/status/Shalu467425/Static-Web-App-on-Cloud-for-CV/azure-static-web-apps-witty-sand-062540e1e.yml?label=Deployment&logo=github)](https://github.com/Shalu467425/Static-Web-App-on-Cloud-for-CV/actions)
 
 A **personal static webpage** hosted on **Microsoft Azure Static Web Apps**.  
 This project showcases my step-by-step process of creating and deploying a simple HTML/CSS website to the cloud.
 
 ---
+
+## 📂 My Project Structure
+- index.html
+- styles.css
+- profile.jpg
+
+
+## 🛠 Tech Stack Used
+- **HTML5** for structure
+- **CSS3** for styling
+- **Microsoft Azure Static Web Apps** for hosting
+
+  ---
 
 ## 🚀 My Deployment Process on Azure Static Web Apps
 
@@ -24,7 +37,7 @@ This project showcases my step-by-step process of creating and deploying a simpl
 
 ### **2. Uploading to GitHub**
 1. Created a **new GitHub repository** specifically for this project.
-2. Uploaded all project files (`index.html`, CSS, images).
+2. Uploaded all project files (`index.html`, styles.css, profile.jpg).
 3. Committed and pushed the files to the `main` branch.
 
 ### **3. Setting Up Azure Static Web App**
@@ -46,18 +59,4 @@ This project showcases my step-by-step process of creating and deploying a simpl
 ### **5. Automatic Deployment**
 - Every time I push to `main`, the GitHub Actions pipeline triggers and deploys the latest version.
 - Deployment status is visible in both **Azure Portal** and the **GitHub Actions tab**.
-
----
-
-## 📂 My Project Structure
-- index.html
-- styles.css
-- profile.jpg
-
-
-## 🛠 Tech Stack Used
-- **HTML5** for structure
-- **CSS3** for styling
-- **Microsoft Azure Static Web Apps** for hosting
-
 
