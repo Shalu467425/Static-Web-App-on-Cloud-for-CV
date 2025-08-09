@@ -7,58 +7,57 @@ Week # 1 Task of Cloud Computing Intership - Static Web App for CV
 [![Azure Static Web Apps](https://img.shields.io/badge/Hosted%20on-Azure%20Static%20Web%20Apps-0078D4?logo=microsoftazure&logoColor=white)](https://azure.microsoft.com/en-us/services/app-service/static/)
 [![HTML5](https://img.shields.io/badge/HTML-5-E34F26?logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
 [![CSS3](https://img.shields.io/badge/CSS-3-1572B6?logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 ![Last Updated](https://img.shields.io/badge/Last%20Updated-2025--08--09-orange)
+[![Azure Deployment](https://github.com/USERNAME/REPO/actions/workflows/azure-static-web-apps.yml/badge.svg)](https://github.com/USERNAME/REPO/actions/workflows/azure-static-web-apps.yml)
 
-A clean and responsive static webpage hosted on **Microsoft Azure Static Web Apps**.  
-This project demonstrates the deployment of a simple HTML/CSS website to the cloud for free.
+A **personal static webpage** hosted on **Microsoft Azure Static Web Apps**.  
+This project showcases my step-by-step process of creating and deploying a simple HTML/CSS website to the cloud.
 
-## 🚀 Deployment Process on Azure Static Web Apps
+---
 
-### **1. Prepare Your Project**
-- Create your website using HTML & CSS.
-- Make sure you have an `index.html` file (this is the default entry point).
-- Place all your assets (CSS, images, etc.) in the same directory or organized in subfolders.
+## 🚀 My Deployment Process on Azure Static Web Apps
 
-### **2. Push Code to GitHub**
-1. Create a GitHub repository.
-2. Upload all your project files.
-3. Commit and push changes.
+### **1. Creating the Website**
+- I developed a basic webpage using **HTML** and **CSS**.
+- The main entry file was `index.html`.
+- All CSS and assets were stored in well-structured folders for easy management.
 
-### **3. Create Azure Static Web App**
-1. Go to [Azure Portal](https://portal.azure.com/).
-2. Search for **"Static Web Apps"** and click **Create**.
-3. Fill out:
-   - **Subscription**: Your Azure subscription
-   - **Resource Group**: Create or select an existing one
-   - **Name**: Choose a unique app name
-   - **Plan type**: Free
-   - **Region**: Choose closest to your audience
-4. Click **Sign in with GitHub** to connect your repo.
+### **2. Uploading to GitHub**
+1. Created a **new GitHub repository** specifically for this project.
+2. Uploaded all project files (`index.html`, CSS, images).
+3. Committed and pushed the files to the `main` branch.
 
-### **4. Configure Build Settings**
-- **App location**:
-  - `/` if `index.html` is in the root folder.
-  - `folder_name` if it’s in a subfolder.
-- **Output location**: Leave empty (no build process).
+### **3. Setting Up Azure Static Web App**
+1. Logged in to [Azure Portal](https://portal.azure.com/).
+2. Navigated to **Static Web Apps** → **Create**.
+3. Configured:
+   - **Subscription**: My Azure subscription
+   - **Resource Group**: Created a dedicated group for this site
+   - **Name**: Unique app name for Azure
+   - **Plan type**: Free tier
+   - **Region**: Closest to my expected visitors
+4. Linked my GitHub repository directly from Azure.
 
-### **5. Deploy**
-- Azure creates a GitHub Actions workflow to auto-deploy on every commit.
-- Wait for deployment to finish (check GitHub Actions tab).
-- Visit your assigned Azure URL.
+### **4. Configuring Build & Deploy**
+- Set **App location** to `/` (since `index.html` is in root folder).
+- Left **Output location** empty (no special build process).
+- Azure automatically created a **GitHub Actions workflow** to handle deployments.
 
+### **5. Automatic Deployment**
+- Every time I push to `main`, the GitHub Actions pipeline triggers and deploys the latest version.
+- Deployment status is visible in both **Azure Portal** and the **GitHub Actions tab**.
 
-## 📂 Project Structure
-index.html
-styles.css
-profile.jpg
+---
 
-
-
-## 🛠 Tech Stack
-- **HTML5**
-- **CSS3**
-- **Microsoft Azure Static Web Apps**
+## 📂 My Project Structure
+- index.html
+- styles.css
+- profile.jpg
 
 
-> 💡 *Tip:* Every time you push to the `main` branch, Azure automatically redeploys 
+## 🛠 Tech Stack Used
+- **HTML5** for structure
+- **CSS3** for styling
+- **Microsoft Azure Static Web Apps** for hosting
+
+
